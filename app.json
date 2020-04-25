@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alexjball.alltalk"
+    },
+    "android": {
+      "package": "com.alexjball.alltalk"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
